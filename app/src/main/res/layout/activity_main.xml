@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="11dp"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+
+    <View
+
+        android:id="@+id/view"
+        android:layout_width="370dp"
+        android:layout_height="578dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/white" />
+
+<EditText
+    android:paddingLeft="50dp"
+    android:hint="enter the number"
+    android:id="@+id/editTextTextPersonName"
+    android:layout_width="322dp"
+    android:layout_height="48dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="52dp"
+    android:layout_marginBottom="544dp"
+    android:background="@drawable/round"
+   android:cursorVisible="true"
+    android:textCursorDrawable="@color/blue"
+    android:ems="10"
+    android:textStyle="bold"
+
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="89dp"
+    tools:layout_editor_absoluteY="278dp"/>
+</RelativeLayout>
